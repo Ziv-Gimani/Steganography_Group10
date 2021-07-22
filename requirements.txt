@@ -1,6 +1,14 @@
-xlwt
-opencv-python
-numpy
-matplotlib
-pillow
-pathlib
+import os
+import xlwt
+import shutil
+import cv2
+import sys
+import math
+import numpy as np
+import itertools
+from PIL import Image
+from pathlib import Path
+from scipy import signal
+from PIL import Image
+from Stegan import Encode, Decode
+import math
